@@ -1,4 +1,4 @@
-module go-protocol
+module github.com/BluesFu/go-protocol
 
 go 1.17
 
