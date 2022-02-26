@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option go_package="github.com:BluesFu/go-protocol/demo";
+
+package hello_world;
+
+service Greeter{
+  rpc SayHello(SayHelloReq) returns (SayHelloRsp){}
+}
+
+message SayHelloReq {
+  string message = 1;
+}
+
+message SayHelloRsp {
+
+}
