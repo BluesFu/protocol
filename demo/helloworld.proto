@@ -9,9 +9,9 @@ service Greeter{
 }
 
 message SayHelloReq {
-  string message = 1;
+  string SendMsg = 1;
 }
 
 message SayHelloRsp {
-
+  string ReplyMsg = 1;
 }
